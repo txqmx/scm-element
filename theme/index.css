@@ -1,0 +1,20 @@
+.mc-input_container{
+  display: inline-block;
+  margin-right: 10px;
+}
+.mc-inline{
+  display: inline-block;
+}
+.mc-input_label{
+  color: #585F60;
+  padding: 0 10px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: right;
+  float: none;
+}
+.is-required .mc-input_label:before{
+  content: "*";
+  color: red;
+  margin-right: 4px;
+}
